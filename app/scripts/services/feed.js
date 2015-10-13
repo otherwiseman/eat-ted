@@ -7,6 +7,7 @@
  * # Feed
  * Factory in the eatTedApp.
  */
+google.load("feeds", "1");
 angular.module('eatTedApp')
   .service('Feed', function ($q, $rootScope) {
     this.get = function(url) {

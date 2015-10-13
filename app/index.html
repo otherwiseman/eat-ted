@@ -14,8 +14,11 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
     <link rel="stylesheet" href="styles/main.css">
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <!-- endbuild -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("feeds", "1"); //Load Google Ajax Feed API (version 1)
+    </script>
   </head>
   <body ng-app="eatTedApp" ng-controller="FeedCtrl">
     <!--[if lt IE 7]>

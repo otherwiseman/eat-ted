@@ -27,7 +27,7 @@ angular.module('eatTedApp')
       $scope.setLoading(true);
       Feed.get(url).then(function (result) {
         if (result.error) {
-          alert("ERROR " + result.error.code + ": " + result.error.message + "\nurl: " + url);
+          alert('ERROR' + result.error.code + ':' + result.error.message + '\nurl: ' + url);
           $scope.setLoading(false);
         } else {
           if (addFeed) addFeed();

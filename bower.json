@@ -10,8 +10,6 @@
     "angular-route": "^1.3.0",
     "angular-sanitize": "^1.3.0",
     "angular-touch": "^1.3.0",
-    "bourbon": "~4.2.5",
-    "neat": "~1.7.2",
     "angular-material": "~0.11.2"
   },
   "devDependencies": {

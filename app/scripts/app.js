@@ -9,7 +9,6 @@
  * Main module of the application.
  */
 
-google.load("feeds", "1");
 angular
   .module('eatTedApp', [
     'ngAnimate',
