@@ -1,0 +1,115 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$textColor: rgba(0, 0, 0, .6);
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "neat/app/assets/stylesheets/_neat.scss";
+// endbower
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  font-family: 'Lora', serif;
+  color: $textColor;
+}
+
+a {
+  color: rgba(0,0,34, .4);
+}
+
+h3 {
+  color: rgba(15, 100, 255, .7);
+}
+p {
+  font-family: 'Source Sans Pro', serif;
+  color: inherit;
+}
+
+#vid_wrapper {
+  text-align: center;
+  width: 700px;
+  margin: 10px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+/* Responsive: Desktop */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+/* Responsive: */
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 360px;
+  }
+  body {
+    font-size: 13px;
+  }
+  .header {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+
