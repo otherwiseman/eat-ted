@@ -1,12 +1,3 @@
 # eat-ted
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
-
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+A responsive web page that consumes a TED talk feed via the Google Feed API and displays the entries, including video playback and item metadata.
